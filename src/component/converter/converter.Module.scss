@@ -1,0 +1,67 @@
+.converter{
+	border: 1px solid black;
+	padding: 15px;
+	max-width: 600px;
+	margin: 50px auto 0;
+	box-shadow: 0 0 10px black;
+	background-color: rgb(253, 240, 255);
+	&__title{
+		text-align: center;
+		margin-bottom: 20px;
+		font-weight: 600;
+	}
+	&__items{
+		display: flex;
+		flex-direction: column;
+		row-gap: 30px;
+	}
+	&__item{
+		display: flex;
+		justify-content: space-between;
+	}
+	&__select{
+		padding: 10px ;
+		cursor: pointer;
+	}
+	&__input{
+		border: 1px solid black;
+		padding: 10px 20px 10px 10px; 
+		max-width: 140px;
+	}
+	&__number{
+		display: flex;
+		align-items: center;
+		column-gap: 20px;
+	}
+	&__text{
+		font-weight: 600;
+		font-size: 14px;
+	}
+	&__change{
+		width: 40px;
+		margin: 0px auto;
+		cursor: pointer;
+		img{
+			transition: 0.7s;
+			&:hover{
+			transform: rotate(180deg);
+		}
+		}
+		
+	}
+	&__btn{
+		background-color: red;
+		border: rgb(0, 0, 0) 2px solid;
+		padding: 10px 5px;
+		width: 180px;
+		display: block;
+		margin: 40px auto;
+		color: aliceblue;
+		font-weight: 600;
+		transition: 0.7s;
+		&:hover{
+			background-color: aliceblue;
+			color: black;
+		}
+	}
+}
