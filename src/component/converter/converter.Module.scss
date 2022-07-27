@@ -10,12 +10,17 @@
 		margin-bottom: 20px;
 		font-weight: 600;
 	}
+	&__name{
+		font-weight: 600;
+		margin-right: -80px;
+	}
 	&__items{
 		display: flex;
 		flex-direction: column;
 		row-gap: 30px;
 	}
 	&__item{
+		align-items: center;
 		display: flex;
 		justify-content: space-between;
 	}
